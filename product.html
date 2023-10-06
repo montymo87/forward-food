@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="index">
+  <head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <div class="preloader"></div>
+    <header class="header js-header">
+      <div class="header__in"><a class="header__logo_w" href="#"><img class="header__logo" src="images/logo.svg" alt="site logo"></a>
+        <div class="header__nav_w">
+          <nav class="header__nav">
+            <ul class="header__nav_list">
+              <li class="header__nav_item"><a class="header__nav_item_link" href="#">Линейка Premium</a></li>
+              <li class="header__nav_item"><a class="header__nav_item_link" href="#">Линейка Стандарт</a></li>
+              <li class="header__nav_item"><a class="header__nav_item_link" href="#">Заказать оптом</a></li>
+              <li class="header__nav_item"><a class="header__nav_item_link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header__links_w header__links_w--mobile">
+            <ul class="header__links">
+              <li class="header__links_item"><a class="header__link_phone" href="tel:8(800)550-2-880">8 (800) 550-2-880</a></li>
+              <li class="header__links_item">
+                <button class="header__link_popup js-popup" type="button">Заказать звонок</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__links_w">
+          <ul class="header__links">
+            <li class="header__links_item"><a class="header__link_phone" href="tel:8(800)550-2-880">8 (800) 550-2-880</a></li>
+            <li class="header__links_item">
+              <button class="header__link_popup js-popup-contact-trigger" type="button">Заказать звонок</button>
+            </li>
+          </ul>
+        </div>
+        <button class="header__menu_trigger js-header-menu-trigger" type="button" aria-label="Toggle menu"><span></span></button>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="base">
+        <section class="section hero_product">
+          <div class="section_in hero_product__in">
+            <div class="hero_product__row">
+              <div class="hero_product__col hero_product__col--info">
+                <div class="hero_product__info">
+                  <div class="hero_product__subtitle">premium</div>
+                  <div class="hero_product__label_img_w"><img class="hero_product__label_img" src="images/hero-product/label.svg" alt="some logo"></div>
+                  <h1 class="hero_product__title">Полнорационный сухой корм для щенков всех пород</h1>
+                  <ul class="hero_product__list">
+                    <li class="hero_product__list_item">
+                      <picture class="hero_product__list_item__img_w">
+                        <source srcset="images/hero-product/0.png.webp" type="image/webp">
+                        <source srcset="images/hero-product/0.png" type="image/png"><img class="hero_product__list_item__img" src="images/hero-product/0.png" alt="some image" loading="lazy">
+                      </picture>В основе корма мясо и жир индейки
+                    </li>
+                    <li class="hero_product__list_item">
+                      <picture class="hero_product__list_item__img_w">
+                        <source srcset="images/hero-product/1.png.webp" type="image/webp">
+                        <source srcset="images/hero-product/1.png" type="image/png"><img class="hero_product__list_item__img" src="images/hero-product/1.png" alt="some image" loading="lazy">
+                      </picture>Усвояемость белка более 80%
+                    </li>
+                    <li class="hero_product__list_item">
+                      <picture class="hero_product__list_item__img_w">
+                        <source srcset="images/hero-product/2.png.webp" type="image/webp">
+                        <source srcset="images/hero-product/2.png" type="image/png"><img class="hero_product__list_item__img" src="images/hero-product/2.png" alt="some image" loading="lazy">
+                      </picture>Натуральный состав
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="hero_product__col hero_product__col--img">
+                <picture class="hero_product__img_w">
+                  <source srcset="images/hero-product/hero.png.webp" type="image/webp">
+                  <source srcset="images/hero-product/hero.png" type="image/png"><img class="hero_product__img" src="images/hero-product/hero.png" alt="some image" loading="lazy">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section product">
+          <div class="section_in product__in">
+            <div class="product__row">
+              <div class="product__col product__col--img">
+                <div class="product__slider_w js-product-slider-w">
+                  <button class="slider_navigation slider_navigation--prev_mod js-slider-navigation-prev" type="button" aria-label="Prev slide">
+                    <svg class="icon icon_arrow_prev icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_prev"></use>
+                    </svg>
+                  </button>
+                  <button class="slider_navigation slider_navigation--next_mod js-slider-navigation-next" type="button" aria-label="Next slide">
+                    <svg class="icon icon_arrow_prev icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_prev"></use>
+                    </svg>
+                  </button>
+                  <div class="product__slider js-product-slider">
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide">
+                      <picture class="product__slide_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="product__slider_thumb_w js-product-thumb-w">
+                  <div class="product__slider_thumb js-product-thumb">
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                    <div class="product__slide_thumb">
+                      <picture class="product__slide_thumb_img_w">
+                        <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                        <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="product__slide_thumb_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__col product__col--info">
+                <div class="product__info">
+                  <div class="product__name">FORWARD premium - ПОЛНОРАЦИОННЫЙ СБАЛАНСИРОВАННЫЙ СУХОЙ КОРМ для щенков всех пород. ЯГНЁНОК, ИНДЕЙКА</div>
+                  <div class="product__controls_w">
+                    <div class="product__controls">
+                      <div class="product__controls_item">
+                        <ul class="product__btn_list">
+                          <li class="product__btn_item">
+                            <button class="product__btn--active_state product__btn" type="button" aria-lebel="2 кг" data-wheight="2 кг">2 кг</button>
+                          </li>
+                          <li class="product__btn_item">
+                            <button class="product__btn" type="button" aria-lebel="15 кг" data-wheight="15 кг">15 кг</button>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="product__controls_item">
+                        <div class="product__price_list">
+                          <div class="product__price_list_item">
+                            <div class="product__price">1 069 руб.</div>
+                          </div>
+                          <div class="product__price_list_item">
+                            <div class="product__wildberries_w"><a class="btn_1" href="#"><span class="buy__card_btn_icon">
+                                  <svg class="icon icon_basket icon--size_mod">
+                                    <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                                  </svg></span><span>Wildberries</span></a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__descr">
+                    <p>Сбалансированный полнорационный корм для щенков всех пород с ягненком и индейкой — обеспечит щенка необходимым набором питательных веществ, витаминов и минералов для здорового развития. Сочетание отборных ингредиентов и натуральных биодобавок при инновационных технологиях обработки сохранит полезные свойства продуктов, чтобы щенок получал только лучшее. Высокоусвояемые белки из двух видов мяса станут материалом для формирования мышечного корсета щенка и развития его опорно-двигательного аппарата.</p>
+                    <p>Натуральные пребиотики из автолизата пивных дрожжей и экстракта цикория нормализуют работу пищеварительной системы. Витаминный комплекс укрепит иммунитет, что позволит снизить риск заболеваемости во взрослом возрасте. Глюкозамин и хондроитин поспособствуют формированию суставов, а незаменимые жирные кислоты Омега-3 и Омега-6 из масла лососевых рыб и льняного семени послужат формированию и оздоровлению внутренних органов.</p>
+                    <p>Высококачественный, вкусный и питательный рацион для Вашего питомца!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product__descr product__descr--mobile">
+              <p>Сбалансированный полнорационный корм для щенков всех пород с ягненком и индейкой — обеспечит щенка необходимым набором питательных веществ, витаминов и минералов для здорового развития. Сочетание отборных ингредиентов и натуральных биодобавок при инновационных технологиях обработки сохранит полезные свойства продуктов, чтобы щенок получал только лучшее. Высокоусвояемые белки из двух видов мяса станут материалом для формирования мышечного корсета щенка и развития его опорно-двигательного аппарата.</p>
+              <p>Натуральные пребиотики из автолизата пивных дрожжей и экстракта цикория нормализуют работу пищеварительной системы. Витаминный комплекс укрепит иммунитет, что позволит снизить риск заболеваемости во взрослом возрасте. Глюкозамин и хондроитин поспособствуют формированию суставов, а незаменимые жирные кислоты Омега-3 и Омега-6 из масла лососевых рыб и льняного семени послужат формированию и оздоровлению внутренних органов.</p>
+              <p>Высококачественный, вкусный и питательный рацион для Вашего питомца!</p>
+            </div>
+          </div>
+        </section>
+        <section class="section product_tab">
+          <div class="section_in product_tab__in">
+            <div class="product_tab__nav">
+              <ul class="product_tab__nav_list">
+                <li class="product_tab__nav_item"><a class="product_tab__tabs_button product_tab__tabs_button--color_blue js-tab-trigger active_state" href="#" data-tab="0"><span class="product_tab__nav_title">Состав корма</span></a></li>
+                <li class="product_tab__nav_item"><a class="product_tab__tabs_button product_tab__tabs_button--color_blue js-tab-trigger" href="#" data-tab="1"><span class="product_tab__nav_title">Аналитический состав</span></a></li>
+                <li class="product_tab__nav_item"><a class="product_tab__tabs_button product_tab__tabs_button--color_blue js-tab-trigger" href="#" data-tab="2"><span class="product_tab__nav_title">Нормы кормления</span></a></li>
+                <li class="product_tab__nav_item"><a class="product_tab__tabs_button product_tab__tabs_button--color_blue js-tab-trigger" href="#" data-tab="3"><span class="product_tab__nav_title">Как переводить на новый корм</span></a></li>
+              </ul>
+            </div>
+            <div class="product_tab__list_w">
+              <div class="product_tab__content_wrap">
+                <div class="product_tab__tabs_content js-tab-content active_state" data-tab="0">
+<div class="product_tab_1">
+  <ul class="product_tab_1__list">
+    <li class="product_tab_1__item">Дегидрированное мясо и мясопродукты (индейка не менее 23%, ягненок не менее 10%);</li>
+    <li class="product_tab_1__item">Жир индейки;</li>
+    <li class="product_tab_1__item">Рис, кукуруза, пшеница;</li>
+    <li class="product_tab_1__item">Масло лососевых рыб;</li>
+    <li class="product_tab_1__item">Льняное семя;</li>
+    <li class="product_tab_1__item">Автолизат пивных дрожжей;</li>
+    <li class="product_tab_1__item">Экстракт цикория;</li>
+    <li class="product_tab_1__item">Глюкозамин;</li>
+    <li class="product_tab_1__item">Хондроитин;</li>
+    <li class="product_tab_1__item">L-лизин;</li>
+    <li class="product_tab_1__item">Лецитин;</li>
+    <li class="product_tab_1__item">Витаминно-минеральный комплекс.</li>
+  </ul>
+  <div class="product_tab_1__descr">Не содержит искусственные красители и ароматизаторы.</div>
+</div>
+                </div>
+                <div class="product_tab__tabs_content js-tab-content" data-tab="1">
+<div class="product_tab_2">
+  <div class="product_tab_2__row">
+    <div class="product_tab_2__item">
+      <ul class="product_tab_2__list">
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Белки</div>
+          <div class="product_tab_2__descr">28%</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Масла и жиры</div>
+          <div class="product_tab_2__descr">15%</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Минеральные вещества</div>
+          <div class="product_tab_2__descr">7%</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Клетчатка</div>
+          <div class="product_tab_2__descr">5%</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Омега-6 жирные кислоты</div>
+          <div class="product_tab_2__descr">3,2%</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Омега-3 жирные кислоты</div>
+          <div class="product_tab_2__descr">0,2%</div>
+        </li>
+      </ul>
+    </div>
+    <div class="product_tab_2__item">
+      <h3 class="product_tab_2__list_title">Витамины в 1 кг корма:</h3>
+      <ul class="product_tab_2__list">
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Витамин А</div>
+          <div class="product_tab_2__descr">22 000 МЕ</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Витамин D3</div>
+          <div class="product_tab_2__descr">700 МЕ</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Витамин Е</div>
+          <div class="product_tab_2__descr">130 мг</div>
+        </li>
+      </ul>
+      <div class="product_tab_2__item_total">
+        <div class="product_tab_2__list_item_title">Энергетическая ценность:</div>
+        <div class="product_tab_2__list_item_descr">352 ккал (1473 кДж)</div>
+      </div>
+    </div>
+    <div class="product_tab_2__item">
+      <h3 class="product_tab_2__list_title">Микроэлементы:</h3>
+      <ul class="product_tab_2__list">
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Fe / Железо</div>
+          <div class="product_tab_2__descr">129 мг</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">I / йод</div>
+          <div class="product_tab_2__descr">1,6 мг</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Cu / Медь</div>
+          <div class="product_tab_2__descr">21 мг</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Mn / Марганец</div>
+          <div class="product_tab_2__descr">14,5 мг</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Zn / Цинк</div>
+          <div class="product_tab_2__descr">130 мг</div>
+        </li>
+        <li class="product_tab_2__list_item">
+          <div class="product_tab_2__title">Se / Селен</div>
+          <div class="product_tab_2__descr">0,15 мг</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="product_tab__tabs_content js-tab-content" data-tab="2">
+<div class="product_tab_3">
+  <div class="product_tab_3__heading">
+    <ul class="product_tab_3__list">
+      <li class="product_tab_3__item product_tab_3__item--blue_mod">
+        <div class="product_tab_3__title">Возраст щенка, мес;</div>
+      </li>
+      <li class="product_tab_3__item product_tab_3__item--pink_mod">
+        <div class="product_tab_3__title">Вес взрослой собаки, кг;</div>
+      </li>
+      <li class="product_tab_3__item">
+        <div class="product_tab_3__title">Количество корма в граммах.</div>
+      </li>
+    </ul>
+  </div>
+  <div class="product_tab_3__table_w">
+    <div class="product_tab_3__table js-drag-table">
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td>7-11</td>
+            <td>12-16</td>
+            <td>17-21</td>
+            <td>22-26</td>
+            <td>27-31</td>
+            <td>32-26</td>
+            <td>37-41</td>
+            <td>42-46</td>
+            <td>47-51</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>2</th>
+            <td colspan="" rowspan="">160</td>
+            <td colspan="" rowspan="">223</td>
+            <td colspan="" rowspan="">262</td>
+            <td colspan="" rowspan="">272</td>
+            <td colspan="" rowspan="">298</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td colspan="" rowspan="">195</td>
+            <td colspan="" rowspan="">265</td>
+            <td colspan="" rowspan="">303</td>
+            <td colspan="" rowspan="">323</td>
+            <td colspan="" rowspan="">334</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td colspan="" rowspan="">209</td>
+            <td colspan="" rowspan="">224</td>
+            <td colspan="" rowspan="">256</td>
+            <td colspan="" rowspan="">264</td>
+            <td colspan="" rowspan="">275</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td colspan="" rowspan="">235</td>
+            <td colspan="" rowspan="">254</td>
+            <td colspan="" rowspan="">286</td>
+            <td colspan="" rowspan="">359</td>
+            <td colspan="" rowspan="">448</td>
+          </tr>
+          <tr>
+            <th>6</th>
+            <td colspan="" rowspan="">234</td>
+            <td colspan="" rowspan="">256</td>
+            <td colspan="" rowspan="">289</td>
+            <td colspan="" rowspan="">370</td>
+            <td colspan="" rowspan="">457</td>
+          </tr>
+          <tr>
+            <th>7</th>
+            <td colspan="" rowspan="">232</td>
+            <td colspan="" rowspan="">250</td>
+            <td colspan="" rowspan="">278</td>
+            <td colspan="" rowspan="">360</td>
+            <td colspan="" rowspan="">442</td>
+          </tr>
+          <tr>
+            <th>8</th>
+            <td colspan="" rowspan="">203</td>
+            <td colspan="" rowspan="">231</td>
+            <td colspan="" rowspan="">254</td>
+            <td colspan="" rowspan="">342</td>
+            <td colspan="" rowspan="">424</td>
+          </tr>
+          <tr>
+            <th>9</th>
+            <td colspan="" rowspan="">189</td>
+            <td colspan="" rowspan="">216</td>
+            <td colspan="" rowspan="">242</td>
+            <td colspan="" rowspan="">325</td>
+            <td colspan="" rowspan="">408</td>
+          </tr>
+          <tr>
+            <th>10</th>
+            <td colspan="" rowspan="">189</td>
+            <td colspan="" rowspan="">216</td>
+            <td colspan="" rowspan="">242</td>
+            <td colspan="" rowspan="">323</td>
+            <td colspan="" rowspan="">406</td>
+          </tr>
+          <tr>
+            <th>11</th>
+            <td colspan="" rowspan="">186</td>
+            <td colspan="" rowspan="">214</td>
+            <td colspan="" rowspan="">239</td>
+            <td colspan="" rowspan="">319</td>
+            <td colspan="" rowspan="">402</td>
+          </tr>
+          <tr>
+            <th>12</th>
+            <td colspan="3" rowspan="3">Переход на корм<br> для взрослых собак</td>
+            <td colspan="" rowspan="">318</td>
+            <td colspan="" rowspan="">400</td>
+          </tr>
+          <tr>
+            <th>13</th>
+            <td colspan="" rowspan="">318</td>
+            <td colspan="" rowspan="">398</td>
+          </tr>
+          <tr>
+            <th>14</th>
+            <td colspan="" rowspan="">316</td>
+            <td colspan="" rowspan="">392</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="product_tab__tabs_content js-tab-content" data-tab="3">
+                  <div class="product_tab_4">
+                    <div class="product_tab_4__heading_w">
+                      <div class="product_tab_4__heading">
+                        <div class="product_tab_4__heading_item">
+                          <div class="product_tab_4__title">Как перевести вашего питомца на</div>
+                        </div>
+                        <div class="product_tab_4__heading_item">
+                          <div class="product_tab_4__label">Premium</div>
+                          <div class="product_tab_4__label_img_w"><img class="product_tab_4__label_img" src="images/logo-black.svg" alt="some image"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product_tab_4__info_title">У щенка всегда должен быть доступ к свежей питьевой воде!</div>
+                    <div class="product_tab_4__list_w">
+                      <ul class="product_tab_4__list">
+                        <li class="product_tab_4__item">
+                          <div class="product_tab_4__col_day">
+                            <div class="product_tab_4__days">1-2</div>
+                            <div class="product_tab_4__days_descr">день</div>
+                          </div>
+                          <div class="product_tab_4__col_info">привычного корма</div>
+                          <div class="product_tab_4__col_percent">80%</div>
+                          <div class="product_tab_4__col_img">
+                            <picture class="product_tab_4__col_img_w">
+                              <source srcset="images/days/0.png.webp" type="image/webp">
+                              <source srcset="images/days/0.png" type="image/png"><img class="product_tab_4__col_img_img" src="images/days/0.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                          <div class="product_tab_4__col_percent">20%</div>
+                          <div class="product_tab_4__col_item_label">корма FORWARD</div>
+                        </li>
+                        <li class="product_tab_4__item">
+                          <div class="product_tab_4__col_day">
+                            <div class="product_tab_4__days">3-4</div>
+                            <div class="product_tab_4__days_descr">день</div>
+                          </div>
+                          <div class="product_tab_4__col_info">привычного корма</div>
+                          <div class="product_tab_4__col_percent">60%</div>
+                          <div class="product_tab_4__col_img">
+                            <picture class="product_tab_4__col_img_w">
+                              <source srcset="images/days/1.png.webp" type="image/webp">
+                              <source srcset="images/days/1.png" type="image/png"><img class="product_tab_4__col_img_img" src="images/days/1.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                          <div class="product_tab_4__col_percent">40%</div>
+                          <div class="product_tab_4__col_item_label">корма FORWARD</div>
+                        </li>
+                        <li class="product_tab_4__item">
+                          <div class="product_tab_4__col_day">
+                            <div class="product_tab_4__days">5-6</div>
+                            <div class="product_tab_4__days_descr">день</div>
+                          </div>
+                          <div class="product_tab_4__col_info">привычного корма</div>
+                          <div class="product_tab_4__col_percent">40%</div>
+                          <div class="product_tab_4__col_img">
+                            <picture class="product_tab_4__col_img_w">
+                              <source srcset="images/days/2.png.webp" type="image/webp">
+                              <source srcset="images/days/2.png" type="image/png"><img class="product_tab_4__col_img_img" src="images/days/2.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                          <div class="product_tab_4__col_percent">60%</div>
+                          <div class="product_tab_4__col_item_label">корма FORWARD</div>
+                        </li>
+                        <li class="product_tab_4__item">
+                          <div class="product_tab_4__col_day">
+                            <div class="product_tab_4__days">7-9</div>
+                            <div class="product_tab_4__days_descr">день</div>
+                          </div>
+                          <div class="product_tab_4__col_info">привычного корма</div>
+                          <div class="product_tab_4__col_percent">20%</div>
+                          <div class="product_tab_4__col_img">
+                            <picture class="product_tab_4__col_img_w">
+                              <source srcset="images/days/3.png.webp" type="image/webp">
+                              <source srcset="images/days/3.png" type="image/png"><img class="product_tab_4__col_img_img" src="images/days/3.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                          <div class="product_tab_4__col_percent">80%</div>
+                          <div class="product_tab_4__col_item_label">корма FORWARD</div>
+                        </li>
+                        <li class="product_tab_4__item">
+                          <div class="product_tab_4__col_day">
+                            <div class="product_tab_4__days">10</div>
+                            <div class="product_tab_4__days_descr">день</div>
+                          </div>
+                          <div class="product_tab_4__col_info">привычного корма</div>
+                          <div class="product_tab_4__col_percent">0%</div>
+                          <div class="product_tab_4__col_img">
+                            <picture class="product_tab_4__col_img_w">
+                              <source srcset="images/days/4.png.webp" type="image/webp">
+                              <source srcset="images/days/4.png" type="image/png"><img class="product_tab_4__col_img_img" src="images/days/4.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                          <div class="product_tab_4__col_percent">100%</div>
+                          <div class="product_tab_4__col_item_label">корма FORWARD</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section buy buy--bg_mod">
+          <div class="section_in buy__in">
+            <div class="buy__heading">
+              <h2 class="buy__title buy__title--buy_2_mod">Другие корма FORWARD PREMIUM</h2>
+            </div>
+            <div class="buy__tabs_content_list_w js-mobile-slider-wrapper">
+              <div class="buy__tabs_content_list js-mobile-slider">
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="buy__item_card">
+                  <div class="buy__card">
+                    <picture class="buy__card_img_w">
+                      <source srcset="images/buy/buy-card.jpg.webp" type="image/webp">
+                      <source srcset="images/buy/buy-card.jpg" type="image/jpeg"><img class="buy__card_img" src="images/buy/buy-card.jpg" alt="some image" loading="lazy">
+                    </picture>
+                    <div class="buy__card_info">
+                      <div class="buy__card_title">FORWARD premium ЯГНЁНОК И ИНДЕЙКА, 2 кг</div>
+                      <div class="buy__card_price">1 069 руб.</div>
+                      <ul class="buy__card_btn_list">
+                        <li class="buy__card_btn_item"><a class="btn_2 buy__card_btn" href="#">Подробнее</a></li>
+                        <li class="buy__card_btn_item"><a class="btn_1 buy__card_btn" href="#"><span class="buy__card_btn_icon">
+                              <svg class="icon icon_basket icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#basket"></use>
+                              </svg></span><span>Wildberries</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buy__pagination js-buy-slider-dots"></div>
+            </div>
+          </div>
+        </section>
+        <section class="section cta_2 cta_2--product_mod">
+          <div class="section_in cta_2__in">
+            <div class="cta_2__row">
+              <div class="cta_2__info">
+                <h2 class="cta_2__title">Можно заказать оптом!</h2>
+                <div class="cta_2__descr">
+                  <p>Условия для заказа оптом. Urna velit aenean est odio tempus sed lobortis ut. Magna ullamcorper ultrices viverra pharetra sed eget non nunc nec.</p>
+                </div>
+              </div>
+              <div class="cta_2__btn_w"><a class="cta_2__btn btn_4" href="#"><span>Перейти в магазин</span></a></div>
+            </div>
+            <picture class="cta_2__img_w">
+              <source srcset="images/cta-2.png.webp" type="image/webp">
+              <source srcset="images/cta-2.png" type="image/png"><img class="cta_2__img" src="images/cta-2.png" alt="some image" loading="lazy">
+            </picture>
+          </div>
+        </section>
+        <section class="section map">
+          <div class="section_in map__in">
+            <div class="map__row">
+              <div class="map__col map__col--info">
+                <div class="map__info">
+                  <h2 class="map__title">Контакты</h2>
+                  <div class="map__contacts_list_w">
+                    <ul class="map__contacts_list">
+                      <li class="map__contacts_item">
+                        <div class="map__contacts_icon">
+                          <svg class="icon icon_mark icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#mark"></use>
+                          </svg>
+                        </div>
+                        <h3 class="map__contacts_title">Адрес</h3>
+                        <div class="map__contacts_descr">Краснодар, ул. Новороссийская, 172/2</div>
+                      </li>
+                      <li class="map__contacts_item">
+                        <div class="map__contacts_icon">
+                          <svg class="icon icon_phone icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#phone"></use>
+                          </svg>
+                        </div>
+                        <h3 class="map__contacts_title">Телефон</h3><a class="map__contacts_descr" href="#">8 (800) 550-2-880</a>
+                      </li>
+                      <li class="map__contacts_item">
+                        <div class="map__contacts_icon">
+                          <svg class="icon icon_mail icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#mail"></use>
+                          </svg>
+                        </div>
+                        <h3 class="map__contacts_title">Почта</h3><a class="map__contacts_descr" href="#">info@forward.pet</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="map__social_list_w">
+                    <ul class="map__social_list">
+                      <li class="map__social_item"><a class="map__social_link" href="#" aria-label="link to social" title="telegram">
+                          <svg class="icon icon_telegram icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#telegram"></use>
+                          </svg></a></li>
+                      <li class="map__social_item"><a class="map__social_link" href="#" aria-label="link to social" title="odnoclasniki">
+                          <svg class="icon icon_odnoclasniki icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#odnoclasniki"></use>
+                          </svg></a></li>
+                      <li class="map__social_item"><a class="map__social_link" href="#" aria-label="link to social" title="vkontakte">
+                          <svg class="icon icon_vkontakte icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#vkontakte"></use>
+                          </svg></a></li>
+                    </ul>
+                  </div>
+                  <div class="map__btn_w"><a class="btn_5 js-popup-contact-trigger" href="#">Оставить заявку</a></div>
+                </div>
+              </div>
+              <div class="map__col map__col--map">
+                <iframe class="map__frame" src="https://yandex.com/map-widget/v1/?um=constructor%3Adbdaef1ab3c7bad6d90147a02daeba881e64eec11e995c4b2603bdd78af385d6&amp;amp;source=constructor" width="1045" height="720" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__in">
+          <div class="footer__row footer__row--top"><a class="footer__logo_w" href="#"><img class="footerr__logo" src="images/logo-footer.svg" alt="site logo"></a>
+            <div class="footer__links_w">
+              <ul class="footer__links">
+                <li class="footer__links_item"><a class="footer__link_mail" href="mailto:info@forward.pet">info@forward.pet</a></li>
+                <li class="footer__links_item"><a class="footer__link_phone" href="tel:8(800)550-2-880"><span class="footer__link_phone_icon">
+                      <svg class="icon icon_phone icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#phone"></use>
+                      </svg></span>8 (800) 550-2-880</a></li>
+                <li class="footer__links_item">
+                  <button class="footer__link_popup js-popup-contact-trigger" type="button">Заказать звонок</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__row footer__row--bot">
+            <div class="footer__rights">© Все права защищены, 2022</div>
+            <div class="footer__rights footer__rights--policy">Политика конфиденциальности</div>
+            <div class="footer__made_logo"><img class="footer__made_logo_img" src="images/madeby.png" alt="made by logo"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup js-popup-contact" data-popup-id="contact">
+      <div class="popup__in">
+        <div class="popup__content">
+          <button class="popup_close js-popup-close" type="button" aria-label="Close Popup" tabindex="0"></button>
+          <div class="popup__content_in">
+            <h2 class="popup__content_title">Оставьте заявку</h2>
+            <div class="popup__content_form_w">
+              <form action="" method="post">
+                <div class="popup__content_form">
+                  <div class="popup__content_form_item">
+                    <div class="form_input">
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text" id="name" placeholder="Имя">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup__content_form_item">
+                    <div class="form_input">
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text" id="phone" placeholder="Номер телефона">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="popup__content_form_btn_w">
+                    <button class="btn_6" type="submit">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="popup__content_descr">Отправляя заявку вы соглашаетесь на обработку своих персональных данных и принимаете Политику конфиденциальности</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script defer src="js/app.js"></script></body>
+</html>
