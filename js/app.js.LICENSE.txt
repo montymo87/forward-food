@@ -166,6 +166,8 @@
 
 /*! components/init-popup */
 
+/*! components/link-change */
+
 /*! components/product-slider */
 
 /*! components/tabs */
@@ -317,6 +319,10 @@
 /*!*****************************************!*\
   !*** ./src/js/components/init-popup.js ***!
   \*****************************************/
+
+/*!******************************************!*\
+  !*** ./src/js/components/link-change.js ***!
+  \******************************************/
 
 /*!******************************************!*\
   !*** ./src/js/dev-vendors/dev-widget.js ***!
